@@ -15,7 +15,7 @@ function reducer(currentState, action){
     newState.number ++;
   }
   // reduer는 이렇게 표현한다.(조건문) 액션타입이 PLUS라는 이름을 가지고 있고,
-  // 버튼을 클릭하면 newState의 number값이 1씩 증가한다.
+  // 버튼을 클릭하면 newState의 number값이 1씩 증가한다!
   return newState;
 }
 const store = createStore(reducer);
